@@ -34,6 +34,7 @@ public class triangulo2 {
                 double retiro = sc.nextDouble();
                 if(retiro > saldo){
                     System.out.println("retire una cantidad correcta");
+                    System.out.format("El saldo es: %s, ", saldo);
                 continue;
                 }  
                 saldo = saldo - retiro ;
