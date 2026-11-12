@@ -8,5 +8,7 @@
  * @author renediazoleta
  */
 public class TicketMaster {
-    
+    public static void main(String[] args) {
+        
+    }
 }

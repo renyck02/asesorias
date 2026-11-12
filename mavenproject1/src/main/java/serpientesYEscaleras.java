@@ -40,7 +40,6 @@ public class serpientesYEscaleras {
            
             for(int n = 0; n < posiciones.length; n++){
                 int dado1 = random.nextInt(6-1) + 1;
-                System.out.println(nombres[n]);
                 System.out.println(nombres[n] + " tiro el dado y saco: " + dado1);
                 int dado2 = random.nextInt(6-1) + 1;
                 System.out.println(nombres[n] + " tiro el dado y saco: " + dado2);
@@ -82,6 +81,7 @@ public class serpientesYEscaleras {
                 }
                 if(posiciones[n] > 100){
                    posiciones[n] -= resultado;
+                    System.out.println("El jugador " + nombres[n] + "se exedio y vuelve a la posicion" + posiciones[n]);
                    continue;
                 }
                 
